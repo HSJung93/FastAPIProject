@@ -11,4 +11,4 @@ FastAPI를 이용한 웹 프로젝트 입니다. FastAPI는 비동기/ 병렬처
 * path operation에서 상위의 컨트롤러로 우선 순위를 설정
 * Enum을 사용한 path parameter 값 사전 정의
 
-[concur-parel]: [https://hsjung93.github.io/%EC%BD%94%EB%93%9C/coroutine/]
+[concur-parel]: https://hsjung93.github.io/%EC%BD%94%EB%93%9C/coroutine/
