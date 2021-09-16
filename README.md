@@ -6,9 +6,15 @@ FastAPI를 이용한 웹 프로젝트 입니다. FastAPI는 비동기/ 병렬처
 * FastAPI 0.68.1: `pip install fastapi`
 * uvicorn 0.15.0: `pip install uvicorn` 
 
+## 실행
+```
+uvicorn main:app --reload
+```
+
 ## 기능 설명
 * path parameter 타입을 설정하여 데이터를 검수.
 * path operation에서 상위의 컨트롤러로 우선 순위를 설정
 * Enum을 사용한 path parameter 값 사전 정의
+* path 파라매터와 query 파라매터의 구분과 조건 부여
 
 [concur-parel]: https://hsjung93.github.io/%EC%BD%94%EB%93%9C/coroutine/
